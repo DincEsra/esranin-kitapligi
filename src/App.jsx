@@ -1,7 +1,7 @@
 
 import './App.css';
 import { useState } from "react";
-import AramaCubuğu from "./AramaCubugu.jsx"; 
+import AramaCubugu from "./AramaCubugu.jsx"; 
 import KategoriFiltre from "./KategoriFiltre.jsx";
 import DurumFiltre from "./DurumFiltre.jsx";
 import KitapListe from "./KitapListe.jsx";
@@ -176,7 +176,7 @@ function App() {
           <div className="kitap-sutunu">
             {}
             <div className="kutu"> 
-              <AramaCubuğu value={aramaMetni} onChange={setAramaMetni} />
+              <AramaCubugu value={aramaMetni} onChange={setAramaMetni} />
               <KategoriFiltre
                 seciliKategori={seciliKategori}
                 setKategori={setSeciliKategori}

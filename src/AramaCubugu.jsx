@@ -1,6 +1,6 @@
 import { Search } from 'lucide-react';
 
-function AramaCubuğu({ value, onChange }) {
+function AramaCubugu({ value, onChange }) {
   return (
     <div className="relative mb-4">
       <Search className="absolute left-3 top-3 text-gray-400" size={20} />
@@ -15,4 +15,4 @@ function AramaCubuğu({ value, onChange }) {
   );
 }
 
-export default AramaCubuğu;
+export default AramaCubugu;
